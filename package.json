@@ -1,0 +1,30 @@
+{
+  "name": "rust-yew-starter-boilerplate",
+  "version": "0.1.0",
+  "description": "A boilerplate for starting a project with Yew",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyrusssschen/rust-yew-starter-boilerplate.git"
+  },
+  "keywords": [
+    "yew",
+    "wasm",
+    "wasm-bindgen",
+    "starter"
+  ],
+  "author": "Cyrus Chen <kingwinchan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyrusssschen/rust-yew-starter-boilerplate/issues"
+  },
+  "homepage": "https://github.com/cyrusssschen/rust-yew-starter-boiler#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-wasm.rs": "^1.2.15"
+  }
+}

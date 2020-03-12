@@ -1,0 +1,18 @@
+[package]
+name = "rust-yew-starter-boilerplate"
+description = "A boilerplate for starting a project with Yew"
+version = "0.1.0"
+authors = ["Cyrus Chen <kingwinchan@gmail.com>"]
+categories = ["gui", "wasm", "web-programming"]
+keywords = ["yew", "wasm", "wasm-bindgen", "web", "starter", "boilerplate"]
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/cyrusssschen/rust-yew-starter-boilerplate"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+yew = "0.10.0"
