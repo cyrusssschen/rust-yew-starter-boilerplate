@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "cargo install wasm-pack && cargo install && cargo-webparcel build index.html"
   },
   "repository": {
     "type": "git",
